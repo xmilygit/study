@@ -1,0 +1,25 @@
+{
+  "name": "study",
+  "version": "1.0.0",
+  "description": "study node with express and mongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmilygit/study.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "xmilyXLJX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmilygit/study/issues"
+  },
+  "homepage": "https://github.com/xmilygit/study#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
