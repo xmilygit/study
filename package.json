@@ -21,6 +21,6 @@
   "homepage": "https://github.com/xmilygit/study#readme",
   "dependencies": {
     "express": "^4.13.4",
-    "handlebars": "^4.0.5"
+    "express-handlebars": "^3.0.0"
   }
 }

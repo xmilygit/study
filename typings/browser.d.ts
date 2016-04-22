@@ -1,4 +1,4 @@
+/// <reference path="browser/ambient/express-handlebars/index.d.ts" />
 /// <reference path="browser/ambient/express-serve-static-core/index.d.ts" />
 /// <reference path="browser/ambient/express/index.d.ts" />
-/// <reference path="browser/ambient/handlebars/index.d.ts" />
 /// <reference path="browser/ambient/node/index.d.ts" />
