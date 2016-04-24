@@ -1,7 +1,9 @@
 var express = require('express');
-var handlebars = require('express-handlebars').create({defaultLayout:'main'});
+var handlebars = require('express-handlebars').create({ defaultLayout: 'main' });
 
 var app = express();
+
+app.disable('x-powered-by');
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
@@ -18,6 +20,14 @@ app.get('/about', function (req, res) {
     //res.type('text/plain');
     //res.send('about this web');
     res.render('about');
+});
+
+app.get('/headers', function (req, res) {
+    res.set('Content-Type', 'text/plain');
+    var s = '';
+    for (var name in req.headers)
+        s += name + ':' + req.headers[name] + '\n';
+    res.send(s);
 });
 
 
